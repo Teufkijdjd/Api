@@ -9,7 +9,7 @@ module.exports = (req, res) => {
     res.status(200).send(`
         print("สคริปต์โหลดสำเร็จ!")
         -- ใส่โค้ด Lua ของคุณตรงนี้ --
-        "loadstring(game:HttpGet("https://pastebin.com/raw/g9trxTQs"))();
+        loadstring(game:HttpGet("https://pastebin.com/vSJPURQq"))();
     `);
   } else {
     // ถ้าใส่รหัสผิด (หรือเปิดผ่าน Browser): หลอกว่าเป็นหน้า 404 ของ Apache
